@@ -9,7 +9,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## About processed dataset
 
-- Enter information here. 
+- Enter your information here. 
 
 
 ## References
