@@ -15,4 +15,3 @@ This dataset was provided by Russell Goldenberg and collected from various sourc
 ## References
 
 {One Hit Wonder dataset: https://github.com/the-pudding/data/tree/master/one-hit-wonders}
-
