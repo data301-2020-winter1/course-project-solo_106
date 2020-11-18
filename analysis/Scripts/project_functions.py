@@ -50,7 +50,7 @@ def top_ten(url_or_path_to_csv_file):
         df1
         .drop(columns = ['year_index', 'stat_val'])
         .assign(rank_percentage = lambda x:  (df1['rank'] / df1['total_players'])*100)
-        .loc[:, ['id', 'name', 'league', 'rank', 'rank_percentage']].groupby(by = ['id', 'name', 'league']).mean()
+        .loc[:, ['id', 'name', 'league', 'rank', 'rank_percentage', 'sport_name']].groupby(by = ['id', 'name', 'league', 'sport_name']).mean()
         .sort_values(['rank_percentage'], ascending = True)
         .reset_index()
     )
